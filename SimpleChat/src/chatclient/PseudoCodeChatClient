@@ -1,0 +1,38 @@
+
+ChatClient extends JFrame implements ActionListener {
+		Get user nickname for specified chat client
+		Intiate socket, bufferreader, printwriter.
+		Send query “online” to directory server for specified user nickname once submit button clicked
+		Receive user input -- Hosting Chat Room or Joining?
+		
+		If (user input = Hosting)
+		{
+			Create (ChatRoom on Port #, Hosted By: user nickname with server IP Address X, with default popularity rating)
+			Send(ChatRoom) to directory server to record it being open
+			Send available (ChatRoom) to P2P server
+			Send query “joined” to directory server regarding specified ChatRoom 
+		}
+		If (user input = Joining)
+		{
+			Query for peers currently hosting chatrooms to directory server
+			Show client results of Query
+				If (results>0)
+		{
+			Receive user input for which ChatRoom to join
+			Send query “joined” to directory server regarding specified ChatRoom
+		}
+		
+		Else
+		{
+			Print “No available chat rooms being hosted”
+		}
+		
+		
+		}
+		
+		}
+		
+			
+			
+			
+			
