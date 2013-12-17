@@ -1,7 +1,7 @@
 CPS706 - Computer Networking  
 P2P Chat Application  
 
-This in this project we had to create a detailed chat application with many networking concept applied in side. This applicatio has a lot of funcionality but not all of works at this moment.
+This in this project we had to create a detailed chat application with many networking concept applied in side. This application has a lot of functionality but not all of works at this moment.
 
 Group Members:  
 - Julian Tompkins
